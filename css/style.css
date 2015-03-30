@@ -6,7 +6,8 @@
 	-webkit-transition: all 1s ease;
 }
 select {
-	padding: 7px;
+	margin-top: 10px;
+	padding: 12px;
 	border-radius: 5px;
 	border: 1px solid #ccc;
 }
@@ -28,15 +29,14 @@ li {
 	position: relative;
 	top: 10px;
 	color: #434343;
-	}
+}
 .menu a:hover {
 	text-decoration: none;
 	color: #0bb8e3;
-	}
+}
 /*nav*/
 
 /*mobile nav*/
-
 #menu {
 	background-color: #1d1d1d;
 	display: block;
@@ -61,13 +61,12 @@ li {
 	color: white;
 	background-color: #1d1d1d;
 }
-#mobile {
+.mobile {
 	background-color: #1d1d1d;
 	color: white;
 	padding: 7px;
 	margin: 20px 20px 0 20px;
 }
-
 .fa-m {
 	font-size: 22px;
 	border: 1px solid grey;
@@ -105,7 +104,6 @@ li {
 }
 #title {
 	font-size: 60px;
-
 }
 .jumbotron p {
 	font-size: 22px;
@@ -154,7 +152,6 @@ p.section {
 	line-height: 1.5em;
 	max-width: 60%;
 	padding-bottom: 30px;
-
 }
 .row-first {
 	text-align: center;
@@ -194,7 +191,6 @@ p.section {
 	font-size: 2em;
 	line-height: 2.2em;
 	margin: 0 auto;
-
 }
 .circ.circle {
 	position: relative;
@@ -202,23 +198,24 @@ p.section {
 }
 img.img-responsive{
 	display: inline-block;
-	vertical-align: middle;
-	
+	vertical-align: middle;	
 }
 .col-xs-12 {
 	padding: 25px 0 25px 0;
 }
 
 @media only screen and (max-width: 767px) {
-.container-fluid.bg {
-	display: none;
-}
+	.container-fluid.bg 
+	{
+		display: none;
+	}
 }
 
 @media only screen and (min-width: 767px) {
-.container-fluid.bg2 {
-	display: none;
-}
+	.container-fluid.bg2 
+	{
+		display: none;
+	}
 }
 /*section2*/
 
@@ -228,8 +225,7 @@ img.img-responsive{
 	height: 554px;	
 	background-size: cover;
 	background-position-x: 65%;
-  	background-position-y: 73%;
-
+  background-position-y: 73%;
 }
 #sec {
 	padding-top: 180px;
@@ -255,85 +251,69 @@ p.caro {
 	text-align: center;
 	font-size: 18px;
 	line-height: 25px;
-
 }
 .carousel-content h3{
 	padding: 30px;
 }
 .carousel-indicators li {
-  	display: inline-block;
+  display: inline-block;
 	background-color: #C0C8CF;
 
-
- 
 }
 .carousel-indicators .active {
   background-color: #0bb8e3;
   border: 1px solid white;
- }
+}
  /*section4 carousel*/
 
 /*section5*/
-.brands {
-	position: relative;
-	left: 10%;
- 	vertical-align: middle;
- 
-
- }
+.brands {	
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 .brands li {
-
-	margin: 0 auto;
- 	padding: 0 auto;
- }
- .brands img {
-  	padding: 30px;
- }
-
+	justify-content: 
+}
  .phone {
  	margin-left: auto;	
  	margin-right: auto;
  	margin-bottom: 0;
  	margin-top: 0;	
  	padding-top: 20px;
- 	padding-bottom: 0;
- 	
- 	
- }
+ 	padding-bottom: 0;	
+}
  .phone img {
  	height: 237px;
  	margin-bottom: 0;
- 	position: relative;
- 	
- }
+ 	position: relative;	
+}
 .phone h2 {
 	padding: 15px 0;
  	text-transform: uppercase;
  	font-weight: bold;
  	font-size: 22px;
- }
+}
  .phone p {
  	line-height: 30px;
  	font-size: 17px;
  	max-width: 90%
-
- }
+}
  hr.phone {
  	margin: 0px;
  	position: relative;
  	top: -1px;
-
-
- }
+}
  .phone a:link {
  	color: #0bb8e3;
- }
+}
  .phone a:visited {
  	color: #0bb8e3;
- }
+}
  .phone a:hover {
  	color: #0bb8e3;
- }
+}
  .btn-mybtnthree {
 	background-color: white;
 	border: 1px solid #0bb8e3;
@@ -341,21 +321,20 @@ p.caro {
 	color: #0bb8e3;
 	border-radius: 4px;
 	font-size: 21px;
-	margin: 0 20px 0 20px;
-	
- }
+	margin: 0 20px 0 20px;	
+}
  .btn-mybtnthree:hover {
 	background-color: 	#F0FFFF;
 	border: 1px solid #0bb8e3;
 	padding: 15px 55px 15px 55px;
 	color: #0bb8e3;	
- }
+}
  .book h2 {
  	text-transform: uppercase;
  	font-weight: bold;
  	font-size: 22px;
  	padding: 40px 0 30px 0;
- }
+}
 .book {
 	margin: 0 auto;
 	text-align: center;
@@ -373,7 +352,6 @@ p.caro {
 .footer {
 	padding: 0 auto;
 	margin: 0 auto;
-
 }
 .footer h5 {
 	padding-bottom: 10px;
@@ -394,7 +372,6 @@ p.caro {
 .white a:hover {
 	color: white;
 }
-
 .grey {
 	line-height: 18px;
 	font-size: 15px;
@@ -439,7 +416,6 @@ img.app {
 	text-align: center;
 	color: grey;
 	margin: 5px;
-
 }
 .dash {
 	font-size: 24px;
@@ -450,10 +426,11 @@ img.app {
 	margin: 0;
 }
 @media only screen and (max-width: 767px) {
-   .um-above-767 {
-     display:none; 
+  .um-above-767 
+	{
+ 		display: none;
+ 	} 
  }
 .site {
 	-webkit-transition: all 1s ease;
-
 }
